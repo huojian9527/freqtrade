@@ -50,9 +50,6 @@
       "method": "StaticPairList"
     }
   ],
-  "api_server": {
-    "enabled": false
-  },
   "bot_name": "freqtrade-xaut-dryrun",
   "db_url": "sqlite:////freqtrade/runtime_data/tradesv3.sqlite",
   "initial_state": "running",
