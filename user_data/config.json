@@ -50,14 +50,11 @@
       "method": "StaticPairList"
     }
   ],
-  "telegram": {
-    "enabled": false
-  },
   "api_server": {
     "enabled": false
   },
   "bot_name": "freqtrade-xaut-dryrun",
-  "db_url": "sqlite:////freqtrade/user_data/tradesv3.sqlite",
+  "db_url": "sqlite:////freqtrade/runtime_data/tradesv3.sqlite",
   "initial_state": "running",
   "force_entry_enable": false,
   "internals": {
