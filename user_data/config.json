@@ -50,6 +50,18 @@
       "method": "StaticPairList"
     }
   ],
+  "api_server": {
+    "enabled": true,
+    "listen_ip_address": "0.0.0.0",
+    "listen_port": 8080,
+    "verbosity": "error",
+    "enable_openapi": false,
+    "jwt_secret_key": "REPLACE_WITH_RAILWAY_VARIABLE",
+    "CORS_origins": [],
+    "username": "REPLACE_WITH_RAILWAY_VARIABLE",
+    "password": "REPLACE_WITH_RAILWAY_VARIABLE",
+    "ws_token": "REPLACE_WITH_RAILWAY_VARIABLE"
+  },
   "bot_name": "freqtrade-xaut-dryrun",
   "db_url": "sqlite:////freqtrade/runtime_data/tradesv3.sqlite",
   "initial_state": "running",
