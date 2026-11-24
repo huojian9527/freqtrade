@@ -6,6 +6,7 @@ ENV LC_ALL=C.UTF-8
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONFAULTHANDLER=1
 ENV PATH=/home/ftuser/.local/bin:$PATH
+ENV PYTHONPATH=/home/ftuser/.local/lib/python3.14/site-packages
 ENV FT_APP_ENV="docker"
 
 # Prepare environment
